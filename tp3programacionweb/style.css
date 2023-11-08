@@ -17,6 +17,19 @@ img {
     max-width: 100%;
 }
 
+.logo2 img{
+    width: 200px;
+    height: auto;
+    margin-top: -80px;
+}
+
+.logo3 img{
+    width: 170px;
+    height: auto;
+    margin-top: 20px;
+    border: 5px solid #000;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -24,6 +37,18 @@ img {
 
 .header {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 50px 0 0 0;
+}
+
+
+.headercontactanos{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/bg-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
